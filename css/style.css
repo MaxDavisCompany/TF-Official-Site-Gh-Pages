@@ -1,0 +1,47 @@
+@font-face {
+  src: url(/fonts/ostrich-regular.ttf);
+  font-family: ostrich; }
+
+* {
+  font-family: ostrich;
+  box-sizing: border-box; }
+
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; }
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+
+.home-middle-grid {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center; }
+  @media only screen and (min-width: 800px) {
+    .home-middle-grid {
+      grid-template-columns: 20% 30% 50%;
+      grid-gap: 120px;
+      justify-items: stretch; } }
+  @media (min-width: 1200px) {
+    .home-middle-grid {
+      grid-gap: 30px; } }
+
+.body-color-home {
+  background-image: url(/images/mountains.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.body-color-about {
+  background-color: #57142d; }
+
+.body-color-tour {
+  background-color: #104f5d; }
+
+.body-color-contact {
+  background-color: #104f5d; }

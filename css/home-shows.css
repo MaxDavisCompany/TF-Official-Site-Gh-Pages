@@ -1,0 +1,66 @@
+#home-shows .home-shows-container {
+  width: 400px;
+  padding: 25px;
+  margin: 0;
+  background: rgba(35, 171, 158, 0.7); }
+  @media (min-width: 530px) {
+    #home-shows .home-shows-container {
+      width: 550px;
+      margin-bottom: 25px; } }
+  @media only screen and (min-width: 800px) {
+    #home-shows .home-shows-container {
+      margin-bottom: 0;
+      width: 250px;
+      padding: 25px;
+      margin: 25px; } }
+  #home-shows .home-shows-container h1 {
+    font-size: 2rem;
+    font-family: raleway;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 33px; }
+    @media only screen and (min-width: 800px) {
+      #home-shows .home-shows-container h1 {
+        font-size: 2.4rem; } }
+  #home-shows .home-shows-container .show-section {
+    color: #fff; }
+    #home-shows .home-shows-container .show-section .show-1 {
+      margin-bottom: 50px;
+      padding-bottom: 10px;
+      border: 1px solid #fff;
+      text-decoration: none;
+      color: #fff; }
+    #home-shows .home-shows-container .show-section .show-1:hover {
+      cursor: pointer;
+      background: rgba(255, 255, 255, 0.3); }
+    #home-shows .home-shows-container .show-section .show-2 {
+      margin-bottom: 50px;
+      padding-bottom: 10px;
+      border: 1px solid #fff;
+      text-decoration: none;
+      color: #fff; }
+    #home-shows .home-shows-container .show-section .show-2:hover {
+      cursor: pointer;
+      background: rgba(255, 255, 255, 0.3); }
+    #home-shows .home-shows-container .show-section .show-3 {
+      margin-bottom: 50px;
+      padding-bottom: 10px;
+      border: 1px solid #fff;
+      text-decoration: none;
+      color: #fff; }
+    #home-shows .home-shows-container .show-section .show-3:hover {
+      cursor: pointer;
+      background: rgba(255, 255, 255, 0.3); }
+    #home-shows .home-shows-container .show-section h2 {
+      font-family: roboto;
+      font-size: 1.4rem;
+      font-style: italic; }
+    #home-shows .home-shows-container .show-section h3 {
+      font-family: roboto;
+      font-weight: 300;
+      font-size: 1.4rem;
+      padding: 0 2px; }
+    #home-shows .home-shows-container .show-section h4 {
+      font-family: raleway;
+      font-size: 1.4rem;
+      padding: 0 2px; }

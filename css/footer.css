@@ -1,0 +1,84 @@
+.footer {
+  overflow: hidden;
+  margin-top: 100px; }
+  .footer--container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
+    padding: 10px 0; }
+    @media only screen and (min-width: 800px) {
+      .footer--container {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 25px 50px; } }
+    @media (min-width: 1200px) {
+      .footer--container {
+        padding: 50px 500px; } }
+  .footer--text-content h1 {
+    font-size: 1.6rem;
+    color: #fff;
+    font-family: raleway;
+    font-weight: 300;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 10px; }
+  .footer--text-content p {
+    font-size: 1rem;
+    color: #fff;
+    font-family: raleway;
+    font-weight: 300;
+    justify-content: center;
+    text-align: center;
+    transition: all .3s ease-in-out; }
+  .footer--text-content {
+    margin-top: 50px; }
+  .footer--copyright {
+    text-align: center;
+    position: relative;
+    color: #fff;
+    font-family: raleway;
+    font-weight: 300;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0;
+    font-size: .8rem;
+    bottom: 0; }
+    @media only screen and (min-width: 800px) {
+      .footer--copyright {
+        bottom: 35px; } }
+  .footer--follow-us {
+    justify-content: center; }
+  .footer--follow-us i {
+    padding: 0 10px;
+    font-size: 1.8rem;
+    transition: all .1s ease-in-out;
+    color: #fff;
+    overflow: hidden;
+    width: auto;
+    padding-left: 20px; }
+    @media only screen and (min-width: 800px) {
+      .footer--follow-us i {
+        width: 40px;
+        padding: 0 5px; } }
+    @media (min-width: 1200px) {
+      .footer--follow-us i {
+        padding: 5px 10px;
+        width: 200px;
+        text-align: center; } }
+    @media (min-width: 1500px) {
+      .footer--follow-us i {
+        padding: 0 10px;
+        width: auto; } }
+  .footer .form-group {
+    font-family: raleway;
+    font-size: 3.5rem; }
+  .footer button {
+    font-family: raleway;
+    text-align: center;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%); }
+  .footer i:hover {
+    opacity: .6;
+    cursor: pointer;
+    transform: scale(1.2); }

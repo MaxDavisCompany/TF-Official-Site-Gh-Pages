@@ -1,0 +1,21 @@
+#tour-shows {
+  background-image: url(/images/mountains.png);
+  background-position: center;
+  background-size: cover; }
+  #tour-shows .container {
+    padding-top: 150px; }
+    #tour-shows .container th {
+      font-family: raleway; }
+    #tour-shows .container td {
+      font-family: raleway;
+      font-size: .9rem; }
+      @media (min-width: 530px) {
+        #tour-shows .container td {
+          font-size: 1.2rem; } }
+
+.large-hero--tour {
+  padding-bottom: 50px;
+  background-color: #c9f6ff; }
+  @media only screen and (min-width: 800px) {
+    .large-hero--tour {
+      padding-bottom: 120px; } }

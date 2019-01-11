@@ -1,0 +1,42 @@
+@media only screen and (min-width: 800px) {
+  .large-hero .cover-photo img {
+    width: 100%;
+    height: 950px; } }
+
+.large-hero--title {
+  font-weight: 700;
+  position: absolute;
+  font-size: 3.2rem;
+  white-space: nowrap;
+  left: 50%;
+  top: 8%;
+  transform: translateX(-50%);
+  color: #10697d;
+  letter-spacing: .2rem; }
+  @media (min-width: 530px) {
+    .large-hero--title {
+      font-size: 5rem;
+      top: 10%; } }
+  @media only screen and (min-width: 800px) {
+    .large-hero--title {
+      font-size: 7rem;
+      letter-spacing: .5rem;
+      top: 13%; } }
+  @media (min-width: 1500px) {
+    .large-hero--title {
+      font-size: 9rem; } }
+
+.large-hero--subtitle {
+  font-weight: 300;
+  position: absolute;
+  font-size: 1.5rem;
+  left: 47%;
+  transform: translateX(-50%);
+  top: 60%;
+  color: #fff;
+  font-family: raleway;
+  letter-spacing: .3rem;
+  display: none; }
+  @media only screen and (min-width: 800px) {
+    .large-hero--subtitle {
+      display: block; } }
